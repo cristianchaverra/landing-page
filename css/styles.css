@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+:root {
+    --color-principal: #1e293b;
+    --color-secundario: #334155;
+    --color-blanco: #ffffff;
+}
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -8,8 +13,8 @@ body {
     color: #333;
 }
 header {
-    background-color: #1e293b;
-    color: white;
+    background-color: var(--color-principal);
+    color: var(--color-blanco); 
     text-align: center;
     padding: 30px 20px;
 }
@@ -17,12 +22,12 @@ nav {
     display: flex;
     justify-content: center;
     gap: 25px;
-    background-color: #334155;
+    background-color: var(--color-secundario);
     padding: 15px;
     flex-wrap: wrap;
 }
 nav a {
-    color: white;
+    color: var(--color-blanco); 
     text-decoration: none;
     font-weight: bold;
 }
@@ -32,13 +37,13 @@ main {
     padding: 20px;
 }
 section {
-    background-color: #ffffff;
+    background-color: var(--color-blanco);
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 8px;
 }
 h2 {
-    color: #1e293b;
+    color: var(--color-principal);
     border-bottom: 2px solid #e2e8f0;
     padding-bottom: 10px;
 }
@@ -46,7 +51,7 @@ h2 {
     border: 1px solid #e2e8f0;
     padding: 15px;
     border-radius: 8px;
-    background-color: #ffffff;
+    background-color: var(--color-blanco);
 }
 .tarjetas {
     display: grid;
@@ -77,13 +82,13 @@ input, textarea {
     border-radius: 5px;
 }
 button {
-    background-color: #1e293b;
-    color: #ffffff;
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
     border: none;
     padding: 12px;
     border-radius: 5px;
     cursor: pointer;
 }
 button:hover {
-    background-color: #334155;
+    background-color: var(--color-secundario);
 }
