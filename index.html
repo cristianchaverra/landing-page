@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio personal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mi portafolio personal</h1>
+        <p>Desarrollador web en formacion</p>
+    </header>
+    <nav>
+        <div>
+        <a href="#sobre-mi">Sobre mi</a>
+        </div>
+        <div>
+        <a href="#habilidades">Habilidades</a>
+        </div>
+        <div>
+        <a href="#proyectos">Proyectos</a>
+        </div>
+        <div>
+        <a href="#contacto">Contacto</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre mi</h2>
+            <p>Soy un desarrollador en formacion enfocado en el desarrollo web y la creación de aplicaciones modernas.</p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Laravel</li>
+                <li>Node.js</li>
+                <li>NestJS</li>
+            </ul>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <h3>Mi primer proyecto</h3>
+                    <a href="https://cristianchaverra.github.io/dia2-html/" target="_blank">Ver proyecto</a>
+                    <p>Una pagina creada con HTML y CSS.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Mi portafolio</h3>
+                    <a href="P" target="_blank">Ver proyecto</a> 
+                    <p>Mi pagina personal responsive</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Cristian Camilo Chaverra.</p>
+    </footer>
+
+</body>
+</html>
